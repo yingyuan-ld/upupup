@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+    width: calc(100vw);
+    height: calc(100vh);
+}
+#main-container{
+	height: 100%;
+	width: 100%;
+    font-family: serif;
+}
+.line{
+	text-align: center;
+}
+.uptext{
+	font-size: 100px;
+	float: left;
+}
+img.upimg {
+    float: left;
+}
+.foot{
+	background-image: url(./img/foot.jpg);
+    background-size: calc(100vw);
+    height: calc(62vw);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.bear{
+    width: 100px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
